@@ -5,5 +5,7 @@ function flipArgs() {
         flippedArgs[i] = arguments[len-1-i];
     }
     return flippedArgs;
-  
 }
+
+module.exports = flipArgs
+  
